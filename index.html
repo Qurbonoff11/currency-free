@@ -25,7 +25,7 @@
 <body>
 
   <!-- MAIN -->
-  <main class="bg-[#9873fe] w-full h-screen">
+  <!-- <main class="bg-[#9873fe] w-full h-screen">
     <section class="container m-auto h-full flex justify-center items-center">
       <div class="bg-white p-5 flex flex-col gap-5 rounded-xl">
         <div class="flex flex-col items-center gap-2">
@@ -46,7 +46,37 @@
         <p id="result" class="text-[1.2rem] text-center mt-4 text-[#02002c] bg-[#e5dbff] py-3 px-0 w-full"></p>
       </div>
     </section>
+  </main> -->
+
+  <main class="bg-[#9873fe] w-full h-screen">
+    <section class="container m-auto h-full flex justify-center items-center p-4 sm:p-0">
+      <div class="bg-white p-4 sm:p-5 flex flex-col gap-5 rounded-xl w-full sm:w-auto">
+
+        <div class="flex flex-col items-center gap-2">
+          <img class="w-40 sm:w-[25rem]" src="./assets/img/app-icon.png" alt="app-icon">
+          <h1 class="text-2xl sm:text-3xl font-semibold text-center">Currency Converter</h1>
+        </div>
+
+        <label for="amount" class="block font-medium text-base">Amount: </label>
+        <input type="text" id="amount" value="1"
+          class="block text-lg sm:text-[1.2rem] w-full border-b-2 text-[#7a789d] mb-6 sm:mb-8 p-2 border-[#02002c] outline-none focus:text-[#9873fe] focus:border-[#9873fe]">
+
+        <div class="w-full flex flex-col sm:flex-row justify-between items-center gap-4">
+          <select id="fromCurrencySelect"
+            class="w-full p-3 sm:p-[0.6rem] text-base appearance-none bg-[#9873fe] text-white font-medium rounded-lg"></select>
+          <select id="toCurrencySelect"
+            class="w-full p-3 sm:p-[0.6rem] text-base appearance-none bg-[#9873fe] text-white font-medium rounded-lg"></select>
+        </div>
+
+        <button id="convertBtn"
+          class="text-base w-full bg-[#9873fe] py-3 sm:py-4 mt-6 sm:mt-8 rounded-[0.3rem] text-white font-semibold">Convert</button>
+
+        <p id="result" class="text-lg sm:text-[1.2rem] text-center mt-4 text-[#02002c] bg-[#e5dbff] py-3 px-0 w-full">
+        </p>
+      </div>
+    </section>
   </main>
+
 
   <!-- JS LINK -->
   <script type="module" src="./js/script.js"></script>
