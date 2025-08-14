@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+  font-family: 'Ubuntu', sans-serif ;
+}
+
+#fromCurrencySelect{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("../assets/svg/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 15px top 50%, center;
+  background-size: 40px 40px;
+}
+
+#toCurrencySelect{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("../assets/svg/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 15px top 50%, center;
+  background-size: 40px 40px;
+}
+
+select option{
+  background-color: #fff;
+  color: #02002c;
+}

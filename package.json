@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "tailwindcss": "^3.4.17",
+    "telegraf": "^4.16.3"
+  },
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./style/input.css -o ./style/output.css --watch",
+    "dev": "nodemon ./bot/bot.js"
+  }
+}
