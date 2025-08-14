@@ -1,6 +1,6 @@
 # currency-free
 
-Version: 0.0.2
+Version: 0.0.3
 
 **Bu valyutani hisob lash uchun chiqarilgan web site, 163 ta davlat pul birliklarini online tarzda hisoblab beradi❗**
 

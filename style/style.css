@@ -26,3 +26,12 @@ select option{
   background-color: #fff;
   color: #02002c;
 }
+
+@media only screen and (max-width: 470px) {
+  section{
+    max-width: 80% !important;
+  }
+  section div div img{
+    max-width: 80% !important;
+  }
+}
